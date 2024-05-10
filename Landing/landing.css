@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body{
+    display: flex;
+    overflow: hidden;
+    width: 100vw;
+    height: 100vh;
+    flex-direction: column;
+    background: #ffffff;
+
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 10px 60px;
+    height: max-content;
+    align-items: center;
+}
+header .menus{
+    display: flex;
+    gap: 40px;
+    align-items: center;
+    
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+header .menus a img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    
+}
+  header .btn-menus button{
+    padding: 10px 20px;
+    border: none;
+    border-radius: 20px;
+    margin-left: 10px;
+    font-weight: bold;
+}
+header .btn-menus button:nth-child(1){
+    background:none;
+    color: black;
+    border: 2px solid black;
+}
+header .btn-menus button:nth-child(2){
+    background: #ff1e1e;
+    color: white;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+header .btn-menus{
+    display: flex;
+}
+header .btn-menus button:nth-child(2) i{
+    font-size: 20px;
+}
+.home{
+    color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 50px;
+}
+.home .content{
+    display: flex;
+    flex-direction: column;gap: 30px;
+}
+.home .content h3{
+    font-size: 40px;
+    font-weight: bolder;
+}
+.home .content button{
+    display: flex;
+    align-items: center;
+    padding: 10px 20px;
+    width: 230px;
+    gap: 20px;
+    border-radius: 20px;
+    border: none;
+    font-weight: bolder;
+    background: #ff1e1e;
+    color: white;
+}
+.home .content .profile{
+    display:flex;
+    gap: 20px;
+    align-items: center;
+
+}
+.profile img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid white;
+
+}
+.profile .content-2{
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+ }
+.profile .content-2 span:nth-child(1)
+{
+    font-weight: bolder;
+}
+.img-web{
+    width: 500px;
+}
+.icon{
+    border-radius: 50%;
+}
